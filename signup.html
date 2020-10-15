@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>signup</title>
+</head>
+
+<body>
+<style>
+body {
+  background-image: url('images/study pic.jpg');
+  background-repeat: no-repeat;
+  background-size: 1369px 700px;
+}
+
+h1 { 
+	text-align: center;
+	text-shadow: 3px 3px 5px black, 0 0 25px blue, 0 0 5px darkblue;
+	color: #ffffff;
+	font-family: serif;
+padding: 10px;
+
+}
+
+h2 {
+	 
+	text-align: center;
+	text-shadow: 3px 3px 5px red, 0 0 50px green, 0 0 15px red;
+	color: #ffffff;
+	font-family: sans-serif;
+
+}
+
+div{
+	position: absolute;
+  left: 25%;
+  top:60%;
+  transform: translate(0%, -50%);
+	color:solid #ffffff;
+	text-shadow: 1px 1px 2px white, 0 0 100px blue, 0 0 50px darkblue;
+	font-family: sans-serif;
+	word-spacing: 10px;
+  	border-color: white;
+  	word-spacing: 30px;
+  	background-color: white;
+  	background-size: 800px 500px;
+  	background-repeat: no-repeat;
+  border: 3px  #73AD21;
+padding: 3%;
+background-image: url("images/signup back.jpg");
+
+}
+p{
+  color: black;
+  font-family:sans-serif;
+  font-variant: normal;
+  font-size: 0.875em;
+    letter-spacing: 0.5%;
+}
+.button{
+	background-color: #99ffff; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+
+</style>
+
+<center><h1>WELCOME TO REGISTER PAGE</h1></center>
+<center><h2>DEVELOP YOUR KNOWLEDGE</h2></center>
+<div>
+<form>
+ <center> 
+ 	<label for="fname">First_name:</label>
+  <input type="text" id="fname" name="fname">
+  <label for="lname">Last_name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label><br><br>
+  <label for="birthday">DOB:</label>
+  <input type="date" id="birthday" name="birthday">
+  <label for="email">enter_email:</label>
+  <input type="email" id="email" name="email"><br><br>
+   <label for="phone">phone_number:</label>
+  <input type="tel" id="phone" name="phone"
+  placeholder="123-4567-8901"
+  pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+  <label for="new username">new_Username</label><br>
+  <input type="text" id="username" name="new username"><br><br>
+  <label for="new pwd">New_Password</label>
+  <input type="password" id="pwd" name="new pwd">
+  <label for="new pwd">Confirm_Password</label>
+  <input type="confirm password" id="pwd" name="Confirm_Password "><br><br><br>
+  <button onlick="#" class="button"> <a href="new.html"> Signup</a></button>
+  <p>existing user! click to <a href="new.html">login</a></p>
+</center>  
+</form>
+</div>
+</body>
+</html>
